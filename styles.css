@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D.jpg);
+    width: 100%;
+    height: 100vh;
+    margin: 10;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+  }
+  h1{
+    margin: 1em auto;
+    text-align: center;
+  }
+  p{
+    margin: 1em auto;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(198, 198, 218);
+  }
+  
+  form {
+    border:black;
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
+  
+  fieldset {
+    border:black;
+    padding: 1rem 0;
+    border-bottom: 3px solid black;
+    border-top: 2.5px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 18px;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 1px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  
+  }
+  
+  input, textarea {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 20px;
+    background-color: #3b3b4f;
+    border-color: green;
+  }
+  
+  legend{
+    font-size: 22px;
+    color: white;
+  }
+  
